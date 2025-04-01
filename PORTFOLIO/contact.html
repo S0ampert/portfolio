@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <title>Document</title>
+    <style>
+        body {
+            
+            background-image: linear-gradient(to bottom right, rgb(112,141,129), rgb(0,20,39));
+            
+            height: 701px;
+            color: rgb(0,20,39);
+
+        }
+        h1 {
+            
+            font-family: cocogoose-bold;
+            color: white;
+            text-align: center;
+            margin-top: 250px;
+        }
+        .generalFlexbox {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center; 
+            margin-top: 40px;
+        }
+        .card {
+            font-family: cocogoose-bold;
+            background-color: white;
+            margin-top: 60px;
+            margin-bottom: 0px;
+            width: 400px;
+            border-radius: 10px;
+
+            display: flex;
+
+            align-items: center;
+
+        }
+        .card:hover {
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            background-color: rgb(244,213,141)
+        }
+        .card:active {
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            background-color: rgb(191,6,3);
+        }
+        
+        .name {
+            font-size: 40px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            flex-grow: 1;
+        }
+        .link {
+            flex-grow: 3;
+        }
+        a {
+            color: rgb(0,20,39);
+            text-decoration: underline;
+
+        }
+        img {
+            height: 60px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>MY SOCIALS</h1>
+    <div class="generalFlexbox">
+        <a href="https://x.com/Soampert">
+            <div class="card">
+                <img src="images/twitter.png" alt="twitter/x">
+                <p class="name">TWITTER / X</p>
+            </div>
+        </a>
+        
+        <a href="https://www.instagram.com/soampert1/">
+            <div class="card">
+                <img src="images/instagram.png" alt="instagram">
+                <p class="name">INSTAGRAM</p>
+            </div>
+        </a>
+    
+    
+</body>
+</html>

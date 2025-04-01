@@ -1,0 +1,17 @@
+@font-face {
+    font-family: cocogoose-bold;
+    src:url(fonts/Cocogoose-bold.ttf);
+}
+
+@font-face {
+    font-family: cocogoose-semibold;
+    src:url(fonts/Cocogoose-regular.ttf);
+}
+@font-face {
+    font-family: cocogoose-light;
+    src:url(fonts/Cocogoose-semilight.ttf);
+}
+@font-face {
+    font-family: cocogoose-stilyzed;
+    src:url(fonts/Cocogoose-Letterpress-Regular.ttf);
+}

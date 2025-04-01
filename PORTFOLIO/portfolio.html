@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <title>Soampert Portfolio</title>
+    <style>
+        /*
+        font-family:
+        
+        Cocogoose-Pro-Bold-trial.ttf        bold
+        Cocogoose-Pro-Regular-trial.ttf     semibold
+        Cocogoose-Pro-Semilight-trial.ttf   light
+
+        Cocogoose-Pro-Letterpress-Regular-trial.ttf
+        
+        */
+        body {
+            margin:0;
+        }
+        .linktree {
+            /*
+            background-image: linear-gradient(to bottom right, royalblue, rgb(0, 167, 95));
+            background-image: linear-gradient(to bottom right, rgb(104,176,171), rgb(143,192,169));
+            */
+            background-image: linear-gradient(to bottom right, rgb(112,141,129), rgb(0,20,39));
+            height: 2230px;
+        }
+        .listaDeLinks {
+            padding-top: 50px;
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .pfp {
+            border-radius:50%;
+            display: block;
+            margin: auto;
+            height: 250px;
+        }
+        .name {
+            margin-top: 10px;
+            margin-bottom: 0px;
+            font-size: 40px;
+            font-weight: bold;
+            color: white;
+            font-family: cocogoose-bold;
+        }
+        .videoEditor {
+            margin-top: 10px;
+            margin-bottom: 30px;
+            font-size: 22px;
+            color: white;
+            font-family: cocogoose-light;
+        }
+
+        .a-name {
+            text-decoration: none;
+            color: white;
+        }
+        .a-name:hover {
+            color: rgb(244,213,141);
+        }
+        .a-name:active {
+            color: rgb(191,6,3);
+        }
+
+
+        .tiktok, .tiktok2, .youtube {
+            border-width: 1px;
+            border: solid;
+            border-color: white;
+            border-radius: 15px;
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+            font-family: cocogoose-light;
+
+            color: white;
+            font-size: 40px;
+        }
+        .tiktok2, .youtube {
+            margin-top: 100px;
+        }
+        
+        .tiktokFlexbox2, .youtubeFlexbox{
+            margin-top: 15px;
+            display: flex;
+            justify-content:space-evenly;
+        }
+
+        .julenfalafelclips {
+            margin-top:0px;
+            padding-top:0px;
+            padding-top: 8px;
+            font-size: 30px;
+            margin-bottom: 15px;
+            font-family: cocogoose-light;
+        }
+
+        .julenfalafelclips {
+            margin-top:0px;
+            padding-top:0px;
+            padding-top: 8px;
+            font-size: 30px;
+            margin-bottom: 15px;
+            font-family: cocogoose-light;
+        }
+        .a-julenfalafelclips {
+            text-decoration: none;
+            color: white;
+        }
+        .a-julenfalafelclips:hover {
+            color: rgb(244,213,141);
+        }
+        .a-julenfalafelclips:active {
+            color: rgb(191,6,3);
+        }
+        .tiktokFlexbox{
+            display: flex;
+            justify-content:space-between;
+        }
+        .videoRectangulo {
+            width: 250px;
+        }
+        .videoCuadrado {
+            height:344px;
+        }
+
+
+        .perfil-flex {
+            display:flex;
+            justify-content: space-evenly;
+        }
+        .perfil-languas {
+            width: 500px;
+            padding-top: 60px;
+        }
+        .perfil-programs {
+            background-color: grey;
+            width: 500px;
+            justify-content: space-evenly;
+            display: flex;
+        }
+        .emoji {
+            font-family: 'Segoe UI Emoji';
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            font-size: 90px;
+        }
+        
+        
+        .languajeFlag {
+            width: 90px;
+            height: 62px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        .stars {
+            display: flex;
+            font-size: 20px;
+        }
+        .programa-logo {
+            width: 80px;
+            height: 80px;
+        }
+        .programas {
+            display: flex;
+            flex-direction: column;
+        }
+        .plataformas {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;;
+        }
+
+
+
+
+        .flex-programas {
+            width:500px;
+            display:flex;
+            justify-content: space-evenly;
+            
+        }
+        .programas-title {
+            font-family: cocogoose-light;
+            color: white;
+            font-size: 25px;
+        }
+        .programas-logo {
+            display: grid;
+            grid-template-columns: auto auto;
+            border-width: 1px;
+            border: solid;
+            border-color: white;
+            border-radius: 15px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            row-gap:10px;
+            column-gap: 10px;
+        }
+
+        .softwares-logos {
+            display: flex;
+            flex-direction: column;
+            border-width: 1px;
+            border: solid;
+            border-color: white;
+            border-radius: 15px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+            padding-right: 20px;
+            row-gap:10px;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="linktree">
+        <div class="listaDeLinks">
+
+            <div class="perfil-flex">
+                <div class=                             "perfil-languas">
+                    <div class="emoji">
+                        <div class="flag">
+                            <img class="languajeFlag" src="images/UK.png" alt="English">
+                    </div>
+                        <div class="flag">
+                            <img class="languajeFlag" src="images/ESP.png" alt="Spanish">
+                    </div>
+                        <div>
+                            <img class="languajeFlag" src="images/CAT.png" alt="Catalan">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class=                             "perfil-pfp-name">
+                    <img class="pfp" src="images/chillguy.jpg" alt="me">
+                    <!-- <p class="name">soampert</p> -->
+                    <p class="name"><a class="a-name" href="contact.html">
+                        soampert
+                    </a>
+                
+                    <p class="videoEditor">
+                        video editor
+                    </p></p>
+
+                </div>
+
+
+                <div class="flex-programas">
+                    <div class="flex-softwares">
+                        <p class="programas-title">SOFTWARES</p>
+                        <div class="softwares-logos">
+                            <img class="programa-logo" src="images/logoPremierepro.png" alt="Adobe Premiere Pro">
+                            <img class="programa-logo" src="images/logoPhotoshop.png" alt="Adobe Photoshop">
+                        </div>
+                    </div>
+                    <div clas="flex-plataformas">
+                        <p class="programas-title">PLATFORMS</p>
+                        <div class="programas-logo">
+                            <img class="programa-logo" src="images/logoTiktok.png" alt="">
+                            <img class="programa-logo" src="images/logoInstagram.png" alt="">
+                            <img class="programa-logo" src="images/logoShorts.png" alt="">
+                            <img class="programa-logo" src="images/logoYoutube.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--
+                <div class=                             "perfil-programs">
+                    <div class="programas">
+                        <img class="programa-logo" src="images/logoPremierepro.png" alt="">
+                        <img class="programa-logo" src="images/logoPhotoshop.png" alt="">
+                    </div>
+                    <div class="plataformas">
+                        <img class="programa-logo" src="images/logoTiktok.png" alt="">
+                        <img class="programa-logo" src="images/logoInstagram.png" alt="">
+                        <img class="programa-logo" src="images/logoShorts.png" alt="">
+                        <img class="programa-logo" src="images/logoYoutube.png" alt="">
+                    </div>
+                </div>
+            -->
+            </div>
+            
+            <div class="tiktok">
+                TIKTOK
+                <p class="julenfalafelclips">worked with <a class="a-julenfalafelclips" href="https://www.tiktok.com/@julenfalafelclips">
+                    @JulenFalafelClips
+                </a></p>
+                <div class=tiktokFlexbox>
+                    <!-- <video class="videoCuadrado" src="videos/cuadrado1.mp4" controls></video> -->
+                    <iframe width="250" height="443" src="https://youtube.com/embed/-Hb8tn5oL7E?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <iframe width="250" height="443" src="https://youtube.com/embed/-dvsd5L1yX0?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <iframe width="250" height="443" src="https://youtube.com/embed/0mmBhk6sgj4?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <iframe width="250" height="443" src="https://youtube.com/embed/hQNiYMlEVCQ?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
+                    <iframe width="250" height="443" src="https://youtube.com/embed/wEK3XBkUlgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    
+                    <!-- <video class="videoCuadrado" src="videos/cuadrado2.mp4" controls ></video>  -->
+                </div>
+            </div>
+
+
+            <div class="tiktok2">
+                OTHER SHORT PROJECTS
+                <div class="tiktokFlexbox2">
+
+                    <iframe width="344" height="344" src="https://youtube.com/embed/JmZXb1KcQBs?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
+                    <iframe width="344" height="344" src="https://youtube.com/embed/8UqCT13VaIU?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <iframe width="344" height="344" src="https://youtube.com/embed/cop2PwYeqEE?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="youtube">
+                YOUTUBE VIDEOS
+                <div class="youtubeFlexbox">
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/v8KfX1Tm7jE?si=dhdjQ_QXIcTBOf04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        const videos = document.querySelectorAll('video');
+        videos.forEach(video => {
+            video.volume = 0.2;
+        });
+    </script>
+</body>
+
+
+</html>
